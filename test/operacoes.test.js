@@ -94,60 +94,60 @@ describe('Teste da calculadora', () => {
 
     
     it('Operação de raiz' , () => {
-        let resultado = calculadora.raiz(1, 2);
+        let resultado = calculadora.raiz(4, 1 / 2);
         expect(resultado).toEqual(2)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(144, 1 / 2);
+        expect(resultado).toEqual(12)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(9, 1 / 2);
+        expect(resultado).toEqual(3)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(49, 1 / 2);
+        expect(resultado).toEqual(7)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(64, 1 / 2);
+        expect(resultado).toEqual(8)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(36, 1 / 2);
+        expect(resultado).toEqual(6)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(81, 1 / 2);
+        expect(resultado).toEqual(9)
 
-        resultado = calculadora.raiz(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.raiz(9, 1 / 2);
+        expect(resultado).toEqual(3)
 
-        resultado = calculadora.raiz(2, 2);
+        resultado = calculadora.raiz(16, 1 / 2);
         expect(resultado).toEqual(4)
 
     })
 
       
     it('Operação de potencia' , () => {
-        let resultado = calculadora.pot(1, 2);
-        expect(resultado).toEqual(2)
+        let resultado = calculadora.pot(4, 2);
+        expect(resultado).toEqual(16)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(2, 3);
+        expect(resultado).toEqual(8)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(3, 4);
+        expect(resultado).toEqual(81)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(6, 5);
+        expect(resultado).toEqual(7776)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(8, 6);
+        expect(resultado).toEqual(262144)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(2, 7);
+        expect(resultado).toEqual(128)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(9, 9);
+        expect(resultado).toEqual(387420489)
 
-        resultado = calculadora.pot(2, 2);
-        expect(resultado).toEqual(4)
+        resultado = calculadora.pot(0, 9);
+        expect(resultado).toEqual(0)
 
         resultado = calculadora.pot(2, 2);
         expect(resultado).toEqual(4)
