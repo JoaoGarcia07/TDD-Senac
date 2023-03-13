@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest test/operacoes.test.js"
+    "test": "jest --coverage test/operacoes.test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^29.4.2",
-    "jest-junit": "^15.0.0"
+    "jest-junit": "^15.0.0",
+    "nyc": "^15.1.0"
   }
 }
